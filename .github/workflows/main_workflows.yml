@@ -6,7 +6,7 @@ name: Main_Workflows
 on:
   pull_request:
     branches:
-      - develop
+      - main # pr 도착지
 
 # job
 jobs:
