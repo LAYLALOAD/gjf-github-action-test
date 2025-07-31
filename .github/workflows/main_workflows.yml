@@ -1,10 +1,13 @@
+# 워크 플로우의 이름 지정
 name: Main_Workflows
 
+# 워크 플로우의 특징 지정
 on:
   push:
     branches:
       - main
 
+# job
 jobs:
   test:
     runs-on: ubuntu-latest
