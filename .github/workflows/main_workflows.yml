@@ -2,6 +2,7 @@
 name: Main_Workflows
 
 # 워크 플로우의 특징 지정
+# main 브랜치에 코드가 푸시될 때마다 워크플로우 실행
 on:
   push:
     branches: # main branch 대상으로 push 이벤트가 발생하면 아래 job이 수행됩니다!
