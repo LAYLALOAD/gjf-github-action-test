@@ -4,7 +4,7 @@ name: Main_Workflows
 # 워크 플로우의 특징 지정
 on:
   push:
-    branches:
+    branches: # main branch 대상으로 push 이벤트가 발생하면 아래 job이 수행됩니다!
       - main
 
 # job
